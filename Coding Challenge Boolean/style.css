@@ -1,0 +1,102 @@
+/****** Layout pagina ******/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.background {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.contentbox {
+    width: 1200px;
+    padding: 100px 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0, 0.5);
+    border-radius: 20px;
+}
+
+/****** Formattazione testo ******/
+
+h1 {
+    color: rgb(0, 221, 0);
+    text-align: center;
+}
+
+h2,p,.arrow {
+    color: white;
+}
+
+.square {
+    color: white;
+    border-radius: 5px;
+}
+
+/****** Logo ******/
+
+img {
+    width: 30%;
+}
+
+.center {
+    display: block;
+    margin: auto;
+}
+
+/****** Sezione bottoni ******/
+
+.button.container {
+    position: relative;
+    background-color: rgb(0, 221, 0);
+    height: 5vh;
+}
+
+.buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+/****** Sezione dei mezzi ******/
+
+.vehicle-name {
+    display: inline-block;
+}
+
+.vehicle-position {
+    display: inline-block;
+}
+
+.charge {
+    height: 3vh;
+    border-radius: 6px;
+}
+
+.full {
+    width: 60%;
+    background-color: rgb(30, 195, 30);
+}
+
+.mid {
+    width: 35%;
+    background-color: rgb(245, 180, 83);
+}
+
+.low {
+    width: 18%;
+    background-color: rgb(190, 65, 65);
+}
